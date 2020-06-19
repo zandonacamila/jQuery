@@ -47,5 +47,5 @@ function trocaFrase(data) {
     var frase = $(".frase");
     frase.text(data.texto);
     atualizaTamanhoFrase();
-    atualizaTempoInicial();
+    atualizaTempoInicial(data.tempo);
 }
