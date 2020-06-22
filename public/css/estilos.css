@@ -33,6 +33,10 @@ body {
     overflow: scroll;
 }
 
+body a {
+    cursor: pointer;
+}
+
 #erro {
     color: red;
     display: none;
@@ -45,4 +49,8 @@ body {
 #frase-id {
     width: 40px;
     margin-left: 10px;
+}
+
+#botao-sync {
+    float: right;
 }
